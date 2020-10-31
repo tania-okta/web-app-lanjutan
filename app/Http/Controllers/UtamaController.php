@@ -39,10 +39,6 @@ Route::get("/Hot-news", function () {
     return "Dianggap menghina Islam, Presiden Perancis dukung karikatur Nabi Muhammad SAW ";
 });
 
-Route::get("/testing-view", function () {
-    return view ("view-1");
-});
-
 Route::get("/satu", function () {
     return view ("view-1");
 });
